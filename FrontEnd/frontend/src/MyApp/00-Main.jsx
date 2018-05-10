@@ -30,9 +30,10 @@ export default class extends React.Component{
                         <Route path="/3" component={Update1}/>
                         <Route path="/4" component={Delete1}/>
 
-                        </br>
-                        </hr>
-                        <div> By Dianne</div>
+                        <br/>
+                        <hr/>
+                        <div>Dianne Hodnett</div>
+
                     </div>
                 </HashRouter>
             </ApolloProvider>

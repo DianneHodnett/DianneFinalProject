@@ -29,7 +29,8 @@ export default class extends React.Component{
                     <h1>Add Apartment</h1>
                 <div>
                     <h3>Provide Apartment Name Below</h3>
-                    <input className={"gralInput" type="text" value={this.state.apartmentName } onChange={ (e) => { this.setState({ apartmentName: e.target.value}) }}/>
+                    <input className="gralInput" type="text" value={this.state.apartmentName }
+                    onChange={ (e) => { this.setState({ apartmentName: e.target.value}) }}/>
                         <br/><br/>
                         <button className="gralButton" onClick={ addToDataBase } >Add to Data Base</button>
                 </div>

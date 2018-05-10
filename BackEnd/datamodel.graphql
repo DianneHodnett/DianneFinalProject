@@ -1,0 +1,31 @@
+type Apartment {
+  id: ID! @unique
+  name: String! @unique
+  address: String!
+  city: String!
+  state: String!
+  zip: Int
+  long: Int
+  lat: Int
+  mixes: [FloorPlan!]!
+}
+
+type FloorPlan {
+  id: ID! @unique
+  building: Apartment!
+  units: Int
+  beds: Int
+  baths: Int
+  squareFeet: Int
+  monthlyPrice: Int
+}
+
+#type Cluster {
+#    id: ID! @unique
+#    property: Apartment!
+#    totalUnits: Int
+#    avgSF: Int
+#    avgMonth: Int
+#    avgDollarSF: Int
+#
+#}
