@@ -11,9 +11,9 @@ import Delete1 from './04-DeleteApartment'
 
 export default class extends React.Component{
     render(){
-        
+
         return(
-            <ApolloProvider client={client}/>
+            <ApolloProvider client={client}>
                 <HashRouter>
                     <div className="MainContainer">
 
