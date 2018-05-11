@@ -1,0 +1,51 @@
+body{
+    background-color: white ;
+    text-align: left;
+}
+
+
+.TempCont{
+    border: 1px solid black;
+    padding-left: 15px;
+    background-color: white;
+    width: 95%;
+    margin: 0 auto 15px auto;
+}
+
+
+
+.MyButton{
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.MyButton:hover{
+    background-color: lightsteelblue;
+}
+
+.Main {
+    padding: 5px;
+
+}
+
+
+.Main-header {
+    background-color: #074063;
+    height: 45px;
+    padding: 20px;
+    color: white;
+}
+
+.Main-title {
+    font-size: 1.5em;
+}
+
+.Main-intro {
+    font-size: large;
+    padding-left: 35px;
+}
+
